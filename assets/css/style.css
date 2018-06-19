@@ -1,0 +1,68 @@
+.row{
+  margin-bottom: 1.5em;
+}
+.row [class^="col-"]{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.banniere{
+  background-image: url(../img/banniere.png);
+  background-position:right;
+  height: 24em;
+  border: 1px solid grey;
+  box-shadow:0.5em 0.5em 1.5em 1em grey;
+}
+.container{
+  background-image:radial-gradient(circle at top left, #9f4a54, #49d49d, #9f4a54);
+  box-shadow:0.5em 0.5em 1.5em 1em grey;
+}
+h1, h3{
+  font-family: 'Dancing Script', cursive;
+}
+h1{
+  font-size: 7em;
+}
+h3{
+  font-size: 3em;
+  font-weight: bold;
+}
+body{
+  background-image: url(../img/wallpaper.jpg);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  padding-top: 4em;
+}
+#experiences, #competences{
+  text-align: justify;
+  font-size: large;
+}
+#experiences{
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+#formation, #contact, #interets{
+  font-size: large;
+}
+i{
+  font-size: 2.5em;
+  color: #2E2E2E;
+}
+.skills{
+  margin-left: 9em;
+}
+ul{
+  list-style-type:circle;
+}
+@media screen and (max-width: 992px)
+{
+  .banniere{
+    display: none;
+  }
+  #experiences, #competences{
+    text-align: center;
+  }
+  .name{
+    font-size: 0.9em;
+    text-align: center;
+  }
+}
