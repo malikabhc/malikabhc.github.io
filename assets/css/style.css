@@ -1,9 +1,11 @@
-.row{
-  margin-bottom: 1.5em;
+.navbar-brand{
+  font-size: 1.6em;
 }
-.row [class^="col-"]{
-  padding-top: 1em;
-  padding-bottom: 1em;
+.navbar{
+  font-size: 1.4em;
+}
+.navbar, h1, h3, h4 {
+  font-family: 'Dancing Script', cursive;
 }
 .banniere{
   background-image: url(../img/banniere.png);
@@ -12,57 +14,73 @@
   border: 1px solid grey;
   box-shadow:0.5em 0.5em 1.5em 1em grey;
 }
-.container{
-  background-image:radial-gradient(circle at top left, #9f4a54, #49d49d, #9f4a54);
-  box-shadow:0.5em 0.5em 1.5em 1em grey;
-}
-h1, h3{
-  font-family: 'Dancing Script', cursive;
-}
 h1{
-  font-size: 7em;
+  font-size: 6em;
 }
 h3{
   font-size: 3em;
+}
+h4{
+  font-size: 2em;
   font-weight: bold;
+}
+.row{
+  margin-bottom: 1.5em;
+}
+.row [class^="col-"]{
+  padding: 1em;
+}
+.container{
+  background-color: #49d49d;
+  box-shadow: 0.5em 0.5em 1.5em 1em grey;
 }
 body{
   background-image: url(../img/wallpaper.jpg);
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-  padding-top: 4em;
+  padding-top: 4.5em;
 }
 #experiences, #competences{
   text-align: justify;
   font-size: large;
 }
 #experiences{
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin : 0.5em;
 }
-#formation, #contact, #interets{
+#formation, #contact{
   font-size: large;
+}
+ul{
+  list-style-type:circle;
+}
+.progress{
+  margin: 1em;
+}
+.progress-bar{
+  background-color: #9f4a54;
+}
+.icon{
+  height: 40px;
+  width: 40px;
+}
+#iconAngular{
+
 }
 i{
   font-size: 2.5em;
   color: #2E2E2E;
 }
-.skills{
-  margin-left: 9em;
-}
-ul{
-  list-style-type:circle;
-}
-@media screen and (max-width: 992px)
+@media screen and (max-width: 800px)
 {
-  .banniere{
-    display: none;
-  }
   #experiences, #competences{
     text-align: center;
   }
   .name{
-    font-size: 0.9em;
+    font-size: 0.6em;
     text-align: center;
+  }
+  .banniere{
+    display: none;
+    margin-top: 0;
   }
 }
